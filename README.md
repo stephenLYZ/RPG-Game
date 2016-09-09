@@ -1,6 +1,6 @@
 ### A simple RGB game powed by enchantjs engine
 
-entry: [](http://stephenlyao.github.io/RPG/)   
+entry: [click](http://stephenlyao.github.io/RPG/)   
 
 ![](https://cloud.githubusercontent.com/assets/11830681/18395836/10d1e888-76f3-11e6-9cf6-7e9ff0bc465c.png)
 #### Three scenes
