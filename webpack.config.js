@@ -3,8 +3,8 @@ const webpack = require('webpack')
 module.exports = {
 	entry: './index.js',
 	output: {
-		publicPath: '/',
-		path: '/',
+		publicPath: './',
+		path: './',
 		filename: 'bundle.js'
 	},
 	module: [
@@ -21,6 +21,7 @@ module.exports = {
 	  presets: ['es2015'],
 	  plugins: ['transform-runtime']
 	},
+	devtools: 'source-map',
 	plugins : [
 		new webpack.optimize.UglifyJsPlugin({
       		compress: {
